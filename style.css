@@ -1,0 +1,134 @@
+body{
+    background-color: #0c0c0c;
+   
+}
+
+
+.menubar{
+   
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 0px;
+   
+    
+   
+   
+}
+.navdiv{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    
+}
+li {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding:10px;
+   color:rgb(1, 8, 15);
+
+}
+li a{
+    color: rgb(236, 241, 244);
+    text-decoration: none;
+    font-size: larger;
+    
+    
+
+}
+li a:hover{
+     color: #aaa396;;
+}
+
+.logo a{
+    text-align: center;
+    text-decoration: none;
+    color:rgb(249, 249, 250);
+    padding-bottom: 15px;
+    font-size:xx-large;
+    font-weight: 900;
+    
+}
+#slider{
+    overflow:hidden;
+    width:95%;
+    height:95%;
+    margin: 4px auto 0px auto;
+}
+
+       
+
+
+#slider figure {
+    position: relative;
+    margin:0%;
+    top:0%;
+    animation: 20s slider infinite ;
+    width:500%;
+    height:500%;
+}
+#slider figure img{
+    float:left;
+    width:20%;
+    height:20%;
+    margin-top: 0%;
+    position: relative;
+    
+}
+
+@keyframes slider{
+    0%{
+        left:0;
+    }
+    20%
+    {
+        left:0%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    75%{
+        left:-200%;
+    }
+    90%{
+        left:-300%;
+    }
+    100%{
+        left: -300px;
+    }
+    
+
+}
+#movies h1{
+    color:white ;
+    margin: 4px auto 0px auto;
+    position: relative;
+    top:40px;
+}
+.box1{
+    border:2px solid white;
+    height:300px;
+    width:200px;
+    padding:15px;
+    margin:30px;
+    float:left;
+    position: relative;
+    top:40px;
+}
+#about{
+    margin: 2px;
+}
+#a1{
+  
+    font-size: 55px;
+    font-family:  MuseoSans900, sans-serif;
+    color: #aaa396;
+}
