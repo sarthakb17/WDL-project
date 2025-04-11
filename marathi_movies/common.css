@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(44, 43, 43);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; 
+}
+
+#heading1 {
+    font-size: 30px;
+    color: rgb(223, 229, 147);
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#img1, #para1 {
+    max-width: 50%; 
+    flex: 1; 
+    min-width: 0; 
+}
+
+#img1 {
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+#para1 {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    color: blanchedalmond;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: x-large;
+}
+h3{
+    color:tan;
+}
+
+#download-link {
+    color: rgb(170, 80, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#download-link:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img1, #para1 {
+        max-width: 90%; 
+    }
+}
+
+@media (max-width: 480px) {
+    #heading1 {
+        font-size: 24px;
+    }
+
+    #para1 {
+        padding: 20px;
+        font-size: 16px;
+    }
+}
+
+
+#para2 {
+    color: hsl(36, 100%, 90%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+#trailer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+video {
+    width: 100%; 
+    max-width: 800px; 
+    height: auto;
+}
